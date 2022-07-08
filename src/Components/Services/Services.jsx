@@ -4,6 +4,7 @@ import HeartEmoji from '../../img/heartemoji.png';
 import Glasses from '../../img/glasses.png';
 import Humble from '../../img/humble.png';
 import Design from "../Design/Design";
+import Resume from './MyResume.pdf';
 
 
 const Services = () =>{
@@ -13,8 +14,8 @@ const Services = () =>{
             <div className="awesome">
                 <span>My Awesome</span>
                 <span>Services</span>
-                <span>lorem ispum is simpley dummy text of printing</span>
-                <button className="button s-button">Download CV</button>
+                <span>As a Software developer I am providing following services for my customers</span>
+                <a href={Resume} download><button className="button s-button">Download CV</button></a>
                 <div className="blur s-blur1" style={{background:'#ABF1FF94'}}>
                 </div>
             </div>
@@ -29,6 +30,7 @@ const Services = () =>{
                 <div style={{left:'12rem' , top:'19rem'}}>
                     <Design image={Humble} heading={'UI/UX'} detail={"lorem"} />
                 </div>
+                <div className="blur s-blur2" style={{background:"var(--purple)"}}></div>
             </div>
         </div>
 

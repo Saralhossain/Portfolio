@@ -1,0 +1,9 @@
+.experience{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    height: 30vh;
+    margin-bottom: 8rem;
+}
+
