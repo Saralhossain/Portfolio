@@ -1,18 +1,18 @@
 import React from 'react';
 import './Contact.css';
 import '../Work/Work.css';
+import {useRef} from 'react';
 import emailjs from '@emailjs/browser';
-import useRef from 'react';
 
 const Contact = () => {
-    const userForm = useRef();
+    const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
-
-    emailjs.sendForm('service_wqyzt6c', 'template_lg7x0sd', userForm.current, 'racdNK1PBcbR86G5N')
+    emailjs.sendForm('service_wqyzt6c', 'template_lg7x0sd', form.current, 'racdNK1PBcbR86G5N')
       .then((result) => {
           console.log(result.text);
+          console.log('Successful')
       }, (error) => {
           console.log(error.text);
       });
@@ -32,7 +32,7 @@ const Contact = () => {
             </div>
             {/* Right section */}
             <div className='r-contact'>
-                <form className='s-form' ref={userForm} onSubmit={sendEmail}>
+                <form ref={form} onSubmit={sendEmail}>
                     <input type='text' name='user_name' placeholder='Name' className='user' />
                     <input type='text' name='user_email' className='user' placeholder='Email' />
                     <textarea name='message' className='user' placeholder='message'></textarea>
