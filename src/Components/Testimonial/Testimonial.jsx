@@ -12,19 +12,19 @@ import "swiper/css";
 const Testimonial = () => {
     const clients = [
         {img: profilePic1,
-            review:"Tum sa mil k dil ka jou hal kya kahain hogia ha mera bahal kya kahy",
+            review:" “Thanks to your willingness to take risks and learn from mistakes, we solved a problem that could have cost the company a lot in the long run. Great work!” ",
         },
         {
             img: profilePic2,
-            review:"Tum sa mil k dil ka jou hal kya kahain hogia ha mera bahal kya kahy",
+            review:" “Your willingness to look outside of yourself and make those around you better is one of the most valuable contributions you’re making. Thank you.”",
         },
         {
             img: profilePic3,
-            review:"Tum sa mil k dil ka jou hal kya kahain hogia ha mera bahal kya kahy",
+            review:" “It can be tough relating to your former peers after a promotion. You’re doing a good job of navigating your new role and new responsibilities.” ",
         },
         {
             img: profilePic4,
-            review:"Tum sa mil k dil ka jou hal kya kahain hogia ha mera bahal kya kahy",
+            review:" “Your time management has really turned around since last quarter. I’m really impressed with your growth, and I hope you can see it too. How can I help you continue to succeed?” ",
         }
     ]
     return (

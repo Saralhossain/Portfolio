@@ -2,16 +2,17 @@ import React from 'react';
 import './Navbar.css';
 import Toggle from '../Toggle/Toggle';
 import { Link } from 'react-scroll';
-import { themeContext } from '../../Context';
-import { useContext } from 'react';
+import logo from '../../img/logo.jpeg';
+
+
 
 const Navbar = () =>{
-    const theme=useContext(themeContext);
-    const darkMode =theme.state.darkMode;
     return (
         <div className='n-wrapper'>
             <div className='n-left'>
-                <div className='n-name'>Saral</div>
+                <div className='n-name'>
+                    <img src={logo} alt="" className='logo'/>
+                </div>
                 <Toggle/>
             </div>
             <div className='n-right'>

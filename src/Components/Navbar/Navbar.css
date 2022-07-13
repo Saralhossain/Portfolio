@@ -11,10 +11,17 @@
     gap:2rem;
 }
 
-.n-name{
+ .n-name{
     font-size: 1.3rem;
-    font-weight: bold;
+    text-align: left;
+    position: relative;
+} 
+
+.logo{
+    height: 80px;
+    width: 150px;
 }
+
 
 
 .n-right{

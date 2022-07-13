@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Contact.css';
 import '../Work/Work.css';
+import '../Navbar/Navbar.css'
 import {useRef} from 'react';
 import emailjs from '@emailjs/browser';
 import { themeContext } from '../../Context';
@@ -48,7 +49,6 @@ const Contact = () => {
                     <textarea name='message' className='user' placeholder='message'></textarea>
                     <input type='submit' value='Send' placeholder='message' className='button s-button' />
                     <span>{done && "Thanks for contacting me!"}</span>
-                  
                     <div className='blur c-blur1' style={{background: 'var(--purple)' , top:'20px'}}></div>
                 </form>
             </div>

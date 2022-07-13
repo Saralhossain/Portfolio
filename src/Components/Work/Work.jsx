@@ -2,15 +2,13 @@ import React from 'react';
 import "./Work.css";
 import Upwork from '../../img/Upwork.png';
 import Fiverr from '../../img/fiverr.png';
-// import Amazon from '../../img/amazon.png';
-import Shopify from '../../img/Shopify.png';
 import Facebook from '../../img/Facebook.png';
 import Malook from '../../img/malook.png';
 import { motion } from 'framer-motion';
 import { Link } from 'react-scroll';
 import { themeContext } from '../../Context';
 import { useContext } from 'react';
-
+import Freelancer from '../../img/freelancer.png';
 
 
 const Work = () =>{
@@ -24,11 +22,12 @@ const Work = () =>{
             <div className="awesome">
                 <span style={{color : darkMode? 'white' : ''}}>Work For All These</span>
                 <span>Brand & Clients</span>
-                <span>As a Software developer I am providing following services for my customers
+                <span>
+                As a Web developer I have served my services for this companies, since last 4years.
                 <br/>
-                As a Software developer I am providing following
+                I have directly discuss about project with client, So I clearly understand 
                 <br/>
-                As a Software developer I am providing following
+                what are requirements, what my client actually wants.
                 <br/>
                 </span>
                 <Link spy={true} to='Contact' smooth={true} activeClass='activeClass'>
@@ -45,19 +44,19 @@ const Work = () =>{
                 transition={{duration:3.5, type:'spring'}}                
                  className='w-mainCircle'>
                     <div className='w-secCircle'>
-                        <img src={Upwork} alt=""/>
+                        <a href='https://www.upwork.com/' ><img src={Upwork} alt="" className='w-images' /></a>
                     </div>
                     <div className='w-secCircle'>
-                        <img src={Fiverr} alt=""/>
+                       <a href='https://www.fiverr.com/'><img src={Fiverr} alt=""  className='w-images'/></a> 
                     </div>
                     <div className='w-secCircle'>
-                        <img src={Malook} style={{transform:'scale(0.3)'}} alt=""/>
+                        <a href='http://malookenterprises.com/'><img src={Malook} alt="" className='w-images'  /></a>
                     </div>
                     <div className='w-secCircle'>
-                        <img src={Shopify} alt=""/>
+                        <a href='https://www.freelancer.com/' ><img src={Freelancer} alt="" className='w-images' /></a>
                     </div>
                     <div className='w-secCircle'>
-                        <img src={Facebook} alt=""/>
+                        <a href='https://www.facebook.com/'><img src={Facebook} alt=""  className='w-images'/></a>
                     </div>
                 </motion.div>
 
