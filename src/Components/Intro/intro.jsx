@@ -49,12 +49,20 @@ const Intro = () =>{
                whileInView={{left:'-24%'}}
                transition={transition}
                 src={glassesimoji} alt=""/>
-               <div style={{top: '-4%' , left:'68%'}}> 
+               <motion.div
+               initial={{left:'74%' , top:'-4%'}}
+               whileInView={{left:'68%'}}
+               transition={transition}
+                style={{top: '-4%' , left:'68%'}}> 
                     <FloatingDiv image={Crown} txt1='React' txt2='Developer' />
-               </div>
-               <div style={{top: '62%', left: '5%'}}>
+               </motion.div>
+               <motion.div
+               initial={{left:'9rem' , top:'18rem'}}
+               whileInView={{left:'0rem'}}
+               transition={transition}
+                style={{top: '62%', left: '5%'}}>
                 <FloatingDiv image={thumbup} txt1= 'Best Design' txt2='Award' />
-               </div>
+               </motion.div>
                <div className="blur" style={{background:'rgb(238 210 255)'}}></div>
                <div className="blur" 
                 style={
