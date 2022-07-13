@@ -48,10 +48,12 @@ textarea{
 
 @media screen and (max-width:480px){
     .contact{
+        display: flex;
+        position: relative;
         flex-direction: column;
-        transform: scale(0.8);
-        align-items: left;
-        justify-content: start!important;
+        transform: scale(0.7);
+        left: -2rem;
+        align-items: center;
     }
 
 }

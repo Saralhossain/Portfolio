@@ -48,7 +48,7 @@ const Services = () =>{
                 initial={{left:'25rem'}}
                 transition={transition}
                  style={{left:'12rem' , top:'19rem'}}>
-                    <Design image={Humble} heading={'UI/UX'} detail={"lorem"} />
+                    <Design image={Humble} heading={'UI/UX'} detail={"Craft , Axure , Proto.io , Figma"} />
                 </motion.div>
                 <div className="blur s-blur2" style={{background:"var(--purple)"}}></div>
             </div>

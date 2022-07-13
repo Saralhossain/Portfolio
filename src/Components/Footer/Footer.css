@@ -26,6 +26,7 @@
 }
 
 @media screen and (max-width:480px){
+   
     .f-content{
         gap: 1rem;
     }

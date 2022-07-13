@@ -8,15 +8,21 @@ import Facebook from '../../img/Facebook.png';
 import Malook from '../../img/malook.png';
 import { motion } from 'framer-motion';
 import { Link } from 'react-scroll';
+import { themeContext } from '../../Context';
+import { useContext } from 'react';
+
+
 
 const Work = () =>{
     //  const transition ={duration :2 , type :'spring'};
-   
+    const theme=useContext(themeContext);
+    const darkMode =theme.state.darkMode;
+    
     return ( 
         <div className='works'>
         {/* Left side */}
             <div className="awesome">
-                <span>Work For All These</span>
+                <span style={{color : darkMode? 'white' : ''}}>Work For All These</span>
                 <span>Brand & Clients</span>
                 <span>As a Software developer I am providing following services for my customers
                 <br/>
