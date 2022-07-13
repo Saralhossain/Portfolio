@@ -45,3 +45,13 @@ textarea{
         left: 8rem;
         top: 1rem;
 }
+
+@media screen and (max-width:480px){
+    .contact{
+        flex-direction: column;
+        transform: scale(0.8);
+        align-items: left;
+        justify-content: start!important;
+    }
+
+}

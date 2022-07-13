@@ -24,3 +24,16 @@
     display: flex;
     gap: 2rem;
 }
+
+@media screen and (max-width:480px){
+    .f-content{
+        gap: 1rem;
+    }
+    .f-content>:nth-child(1){
+        margin-top: 3rem;
+    }
+    .f-content>:nth-child(2){
+        margin-bottom: 2rem;
+    }
+
+}

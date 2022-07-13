@@ -14,7 +14,7 @@ import { useContext } from 'react';
 const Services = () =>{
     const theme=useContext(themeContext);
     const darkMode =theme.state.darkMode;
-    const transition ={duration: 1 , type: 'spring'}
+    const transition ={duration: 2 , type: 'spring'}
     return (
         <div className="services" id="Services">
             {/* Left side */}
@@ -31,14 +31,14 @@ const Services = () =>{
                 <motion.div
                 whileInView={{left:'14rem'}}
                 initial={{left:'25rem'}}
-                transition={{transition}}
+                transition={transition}
                  style={{left:'14rem'}}>
                     <Design image={HeartEmoji} heading={'Design'} detail={"Figma , Sketch , photoshop , Adobe"} />
                 </motion.div>
                 <motion.div
-                whileInView={{left: '-4rem' , top:'12rem'}}
+                whileInView={{left:'-4rem' , top:'12rem'}}
                 initial={{left:'-12rem'}}
-                transition={{transition}}
+                transition={transition}
                 
                  style={{left:'-4rem' , top:'12rem'}}>
                     <Design image={Glasses} heading={'Developer'} detail={"Html , Css , Javascript , React"} />
@@ -46,7 +46,7 @@ const Services = () =>{
                 <motion.div
                 whileInView={{left: '12rem' , top:'19rem'}}
                 initial={{left:'25rem'}}
-                transition={{transition}}
+                transition={transition}
                  style={{left:'12rem' , top:'19rem'}}>
                     <Design image={Humble} heading={'UI/UX'} detail={"lorem"} />
                 </motion.div>

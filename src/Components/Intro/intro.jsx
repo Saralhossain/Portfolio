@@ -50,6 +50,7 @@ const Intro = () =>{
                transition={transition}
                 src={glassesimoji} alt=""/>
                <motion.div
+               className="floting-div"
                initial={{left:'74%' , top:'-4%'}}
                whileInView={{left:'68%'}}
                transition={transition}

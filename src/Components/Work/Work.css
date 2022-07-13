@@ -99,3 +99,40 @@
     top: 11rem;
     left: 5rem;
 }
+
+@media screen and (max-width:480px){
+    .works{
+        flex-direction: column;
+        height: 55rem;
+        padding: 0;
+        gap: 5rem;
+    }
+    .w-right{
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        transform: scale(0.7);
+    }
+    .w-mainCircle{
+        position: static;
+    }
+    .w-backCircle{
+        left: 8rem!important;
+        /* top: 20px; */
+    }
+    .blueCircle{
+        top: -1rem;
+    }
+    .yellowCircle{
+        top: 7rem;
+    }
+    .blackCircle{
+        left: -2rem!important;
+        top: 7rem;
+    }
+    .greenCircle{
+        left: -2rem!important;
+        top: -2rem;
+    }
+
+}

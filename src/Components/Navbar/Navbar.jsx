@@ -33,8 +33,10 @@ const Navbar = () =>{
                         <li>Testimonials</li>
                     </Link> 
                     </ul>
-                </div>
-                <button className='button n-button' >Contact</button>
+                </div> 
+                <Link spy={true} to='Contact' smooth={true} activeClass='activeClass'>      
+                    <button className='button n-button' >Contact</button>
+                </Link>
             </div>
         </div>
     )

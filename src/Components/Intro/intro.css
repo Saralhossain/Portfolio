@@ -77,9 +77,9 @@
 
 .i-right>:nth-child(2)
 {
-    height: 70%;
-    width: 70%;
-    left: 3rem;
+    top: -4.6rem;
+    transform: scale(0.67);
+    left: -3rem;
 }
 
 .i-right>:nth-child(3){
@@ -109,5 +109,22 @@
     filter: blur(72px);
 }
 
+@media screen and (max-width:480px){
+    .intro{
+        flex-direction: column;
+        height: 64rem;
+        gap: 7rem;
+    }
+    .i-right{
+        transform: scale(0.8);
+        left: 3rem;
+    }
+    .i-right .blur{
+        display: none;
+    }
+    .floting-div>:nth-of-type(1){
+        top: -7rem!important;
+    }
 
+}
 
