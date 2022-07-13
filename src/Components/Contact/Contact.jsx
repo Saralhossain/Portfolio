@@ -21,7 +21,7 @@ const Contact = () => {
   };
 
     return (
-        <div className='contact'>
+        <div className='contact' id='Contact'>
             {/* Left Section */}
             <div className='l-contact'>
                 <div className='awesome'>

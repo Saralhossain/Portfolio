@@ -7,6 +7,7 @@ import Shopify from '../../img/Shopify.png';
 import Facebook from '../../img/Facebook.png';
 import Malook from '../../img/malook.png';
 import { motion } from 'framer-motion';
+import { Link } from 'react-scroll';
 
 const Work = () =>{
     //  const transition ={duration :2 , type :'spring'};
@@ -24,7 +25,8 @@ const Work = () =>{
                 As a Software developer I am providing following
                 <br/>
                 </span>
-                <button className="button s-button">Hire Me</button>
+                <Link spy={true} to='Contact' smooth={true} activeClass='activeClass'>
+                   <button className="button s-button" >Hire Me</button></Link>
                 <div className="blur s-blur1" style={{background:'#ABF1FF94'}}>
                 </div>
             </div>
