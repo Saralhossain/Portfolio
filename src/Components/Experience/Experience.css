@@ -7,3 +7,13 @@
     margin-bottom: 8rem;
 }
 
+@media screen and (max-width:480px){
+    .experience{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        transform: scale(0.8);
+        padding:30px;
+    }
+
+}
