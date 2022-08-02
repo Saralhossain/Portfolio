@@ -83,8 +83,9 @@
 }
 
 .i-right>:nth-child(3){
-    transform: scale(1.4);
-    left: 28%;
+    transform: scale(1.9);
+    left: 16%;
+    top:2%;
 }
 
 .i-right>:nth-child(4)

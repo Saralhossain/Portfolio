@@ -18,12 +18,12 @@ const Portfolio = () =>{
             grabCursor={true}
             className='portfolio-slider'
             >
-                <SwiperSlide className='swipe-slider'>
+                {/* <SwiperSlide className='swipe-slider'>
                     <img src={Sidebar} alt='' />
                 </SwiperSlide>
                 <SwiperSlide className='swipe-slider'>
                     <img src={Ecommerce} alt='' />
-                </SwiperSlide>
+                </SwiperSlide> */}
                 <SwiperSlide className='swipe-slider'>
                     <img src={HOC} alt='' />
                 </SwiperSlide>

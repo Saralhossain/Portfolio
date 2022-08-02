@@ -9,6 +9,7 @@ import boy from '../../img/boy.png';
 import thumbup from '../../img/thumbup.png';
 import Crown from '../../img/crown.png';
 import glassesimoji from '../../img/glassesimoji.png';
+import bhaijeee from '../../img/bhaii.png';
 import FloatingDiv from "../FloatingDiv/FloatingDiv";
 import {motion} from 'framer-motion';
 import { Link } from "react-scroll";
@@ -27,8 +28,8 @@ const Intro = () =>{
                 <div className="i-name">
                     <span style={{color : darkMode? 'white' : ''}}>Hi! I Am</span>
                     <span>Alamdar Hussain</span>
-                    <span>Frontend Developer with high
-                    level of experience in web designing and development.
+                    <span>Full Stack Web App developer with high
+                    level of industrial experience in web designing and development.
                     producting the quality work</span>
                 </div>
                 <Link spy={true} to='Contact' smooth={true} activeClass='activeClass'>
@@ -43,7 +44,7 @@ const Intro = () =>{
             <div className="i-right">
                <img src={Vector1} alt="" />
                <img src={Vector2} alt="" />
-               <img src={boy} alt="" /> 
+               <img src={bhaijeee} alt="" /> 
                <motion.img
                initial={{left:'-36%'}}
                whileInView={{left:'-24%'}}
