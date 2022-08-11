@@ -1,43 +1,43 @@
-.n-wrapper{
+.n-wrapper {
     height: 10vh;
     display: flex;
     justify-content: space-between;
 }
 
-.n-left{
+.n-left {
     flex: 1;
     align-items: center;
     display: flex;
-    gap:2rem;
+    gap: 2rem;
 }
 
- .n-name{
+.n-name {
     font-size: 1.3rem;
     text-align: left;
     position: relative;
-} 
+}
 
-.logo{
+.logo {
     height: 80px;
     width: 150px;
 }
 
 
 
-.n-right{
+.n-right {
     display: flex;
-    flex:1;
+    flex: 1;
     align-items: center;
     justify-content: center;
     font-weight: 400;
 }
 
-.n-list{
+.n-list {
     flex: 10;
 }
 
 
-.n-list > ul{
+.n-list>ul {
     display: flex;
     gap: 2rem;
     margin-right: 4rem;
@@ -45,20 +45,27 @@
     cursor: pointer;
 }
 
-.n-list>ul >li:hover{
+.nbar-buttons {
+    height: 30px;
+    width: auto;
+    padding: 4px;
+}
+
+.nbar-buttons:hover {
     cursor: pointer;
     color: var(--orange);
 }
 
-.n-button{
+.n-button {
     flex: 2;
 }
 
-@media screen and (max-width:480px){
-    .n-list{
+@media screen and (max-width:480px) {
+    .n-list {
         display: none;
     }
-    .n-button{
+
+    .n-button {
         display: none;
     }
 }

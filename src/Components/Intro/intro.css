@@ -1,10 +1,10 @@
-.intro{
+.intro {
     display: flex;
     height: 77vh;
     margin-top: 6rem;
 }
 
-.i-left{
+.i-left {
     display: flex;
     position: relative;
     flex: 1;
@@ -12,84 +12,81 @@
     gap: 2rem;
 }
 
-.i-name{
+.i-name {
     display: flex;
     flex-direction: column;
 }
 
-.i-name>:nth-child(1){
+.i-name>:nth-child(1) {
     color: var(--black);
     font-weight: bold;
     font-size: 3rem;
 }
 
-.i-name>:nth-child(2){
+.i-name>:nth-child(2) {
     color: var(--orange);
     font-weight: bold;
     font-size: 3rem;
 }
 
-.i-name>:nth-child(3)
-{
+.i-name>:nth-child(3) {
     font-weight: 100;
     color: var(--gray);
-    font-size: 14px;
+    font-size: 16px;
 }
 
 
-.i-button{
+.i-button {
     width: 6rem;
     height: 2rem;
 }
 
-.i-icons{
+.i-icons {
     gap: 0rem;
     display: flex;
     margin-top: 3rem;
 }
 
-.i-icons>*{
+.i-icons>* {
     transform: scale(0.5);
-    
+
 }
 
-.i-icons>*:hover{
+.i-icons>*:hover {
     cursor: pointer;
 }
 
-.i-right{
+.i-right {
     flex: 1;
-    position:relative;
+    position: relative;
 
 }
 
-.i-right>*{
+.i-right>* {
     position: absolute;
     z-index: 1;
 }
 
-.i-right>:nth-child(1){
+.i-right>:nth-child(1) {
     transform: scale(0.69);
     left: -15%;
     top: -9%;
 }
 
 
-.i-right>:nth-child(2)
-{
+.i-right>:nth-child(2) {
     top: -4.6rem;
     transform: scale(0.67);
     left: -3rem;
 }
 
-.i-right>:nth-child(3){
+.i-right>:nth-child(3) {
     transform: scale(1.9);
     left: 16%;
-    top:2%;
+    top: 2%;
 }
 
-.i-right>:nth-child(4)
-{
+.i-right>:nth-child(4) {
     transform: scale(0.6);
     top: -19%;
     left: -24%;
@@ -97,7 +94,7 @@
     padding: 0;
 }
 
-.blur{
+.blur {
     position: absolute;
     width: 22rem;
     height: 14rem;
@@ -110,22 +107,24 @@
     filter: blur(72px);
 }
 
-@media screen and (max-width:480px){
-    .intro{
+@media screen and (max-width:480px) {
+    .intro {
         flex-direction: column;
         height: 64rem;
         gap: 7rem;
     }
-    .i-right{
+
+    .i-right {
         transform: scale(0.8);
         left: -3rem;
     }
-    .i-right .blur{
+
+    .i-right .blur {
         display: none;
     }
-    .floting-div>:nth-of-type(1){
-        top: -7rem!important;
+
+    .floting-div>:nth-of-type(1) {
+        top: -7rem !important;
     }
 
 }
-
