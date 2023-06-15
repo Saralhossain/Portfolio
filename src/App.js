@@ -32,6 +32,7 @@ function App() {
       <Testimonial/>
       <Contact/>
       <Footer/>
+      
     </div>
   );
 }
