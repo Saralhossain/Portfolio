@@ -41,7 +41,7 @@ const Services = () =>{
                 transition={transition}
                 
                  style={{left:'-4rem' , top:'12rem'}}>
-                    <Design image={Glasses} heading={'Developer'} detail={"Html , Css , Javascript , React"} />
+                    <Design image={Glasses} heading={'Developer'} detail={"Html , Css , Javascript , ReactJs , React Native"} />
                 </motion.div>
                 <motion.div
                 whileInView={{left: '12rem' , top:'19rem'}}

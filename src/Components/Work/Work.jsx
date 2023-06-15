@@ -4,6 +4,7 @@ import Upwork from '../../img/Upwork.png';
 import Fiverr from '../../img/fiverr.png';
 import Facebook from '../../img/Facebook.png';
 import Malook from '../../img/malook.png';
+import devJunction from '../../img/devjunction.png';
 import { motion } from 'framer-motion';
 import { Link } from 'react-scroll';
 import { themeContext } from '../../Context';
@@ -44,7 +45,7 @@ const Work = () => {
                     transition={{ duration: 3.5, type: 'spring' }}
                     className='w-mainCircle'>
                     <div className='w-secCircle'>
-                        <a href='https://www.upwork.com/' ><img src={Upwork} alt="" className='w-images' /></a>
+                        <a href='https://devjunction.io/' ><img src={devJunction} alt="" className='w-images' /></a>
                     </div>
                     <div className='w-secCircle'>
                         <a href='https://www.fiverr.com/'><img src={Fiverr} alt="" className='w-images' /></a>
