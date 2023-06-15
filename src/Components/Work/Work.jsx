@@ -1,6 +1,5 @@
 import React from 'react';
 import "./Work.css";
-import Upwork from '../../img/Upwork.png';
 import Fiverr from '../../img/fiverr.png';
 import Facebook from '../../img/Facebook.png';
 import Malook from '../../img/malook.png';
